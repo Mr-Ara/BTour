@@ -1,0 +1,13 @@
+
+@font-face
+{
+	font-family:'ionicons';
+	src : url('../Fonts/ionicons.eot'),url('../Fonts/ionicons.svg'),url('../Fonts/ionicons.ttf'),url('../Fonts/ionicons.woff');
+}
+
+#title
+{
+	font-family:ionicons;
+	columns:200px 3;
+}
+

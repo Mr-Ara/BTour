@@ -1,0 +1,184 @@
+
+a
+{
+	text-decoration:none;
+	
+}
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.welcome
+{
+	width:100%;
+	height:775px;
+	background-image: url('../image/13655.jpg');
+	background-attachment:fixed;
+	
+}
+
+.login
+{
+	margin:15px 25px 0px 0px;
+	float:right;
+	font-weight:900;
+	font-size:18pt;
+	border:Solid 1px #77f4e4;
+	border-radius:25px;
+	line-height:3;
+	padding:5px;
+}
+
+.welcome>.login>a
+{
+	color:#77f4e4;
+}
+
+.welcome>h1
+{
+	text-align:center;
+	padding-top:100px;
+	font-size:64pt;
+}
+
+.welcome>h1>span
+{
+	color:navy;
+}
+
+.welcome>p
+{
+	text-align:center;
+	font-size:28pt;
+	line-height:4;
+}
+
+.welcome>.links
+{
+	
+	text-align:center;
+	font-size:24pt;
+	line-height:3;
+	
+	
+}
+
+
+#priviostours
+{
+	background-color:#eefffe;
+	width:100%;
+	height:500px;
+	border-radius:150px;
+	text-align:center;
+	padding-top:30px;
+	margin-top:5px;
+}
+
+#priviostours>.gallery
+{
+	
+	float:left;
+	padding-left:75px;
+	
+}
+
+#priviostours>.gallery> a >img
+{
+	
+	border-radius:150px;
+}
+
+
+ins{text-decoration:none;}
+
+
+#futuretours
+{
+	background-color:#eefffe;
+	width:100%;
+	height:500px;
+	border-radius:150px;
+	text-align:center;
+	padding-top:30px;
+	margin-top:5px;
+}
+
+	
+#futuretours>.gallery
+{
+	
+	float:left;
+	padding-left:75px;
+	
+}
+
+
+#futuretours>.gallery> a >img
+{
+	
+	border-radius:150px;
+}
+
+
+
+.section2>.title
+{
+	width:100%;
+	height:700px;
+	background-image:url('../image/16210.jpg');
+	border-radius:400px;
+	text-align:center;
+}
+
+#title{
+	padding-top:300px;
+	font-size:20pt;
+	color:white;
+}
+
+#name{font-size:48pt; color: black;}
+
+
+.section3>.presell
+{
+	width:80%;
+	margin:15px auto 25px;
+	height:600px;
+	background-color:#efffb2;
+	border:12px ridge #efffb2;
+	
+}
+
+ul{list-style:none;}
+
+.titlepre
+ {
+ text-align:center;
+ font-size:32pt;
+ padding-top:15px;}
+ 
+ #Greece{float:left; font-size:24pt; text-align:center; margin-left:120px; margin-top:120px;}
+ #Veniz{float:left; font-size:24pt; text-align:center; margin-left:120px; margin-top:120px;}
+ #hawai{float:left; font-size:24pt; text-align:center; margin-left:120px; margin-top:120px;}
+ 
+ 
+ fieldset{width:250px; height:250px; background-color:white;}
+ li{font-size:14pt;padding-top:15px;}
+ 
+ .reserve{
+	 border:solid black 1px;
+	 border-radius:35px;
+	 line-height:3;
+	background-color:#efffb2;
+ }
+  
+  
+  footer
+  {
+	  background-color:#690303;
+  }
+  
+  #footer>p{color:white;text-align:center;}

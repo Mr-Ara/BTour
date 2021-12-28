@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<style>
+			.form
+			{
+			line-height :25pt;
+			/*margin: 100px 500px 100px 500px;*/
+			
+			position:absolute;
+			left:600px;
+			right:600px;
+			top:150px;
+			}
+			
+			.form1
+			{
+			line-height :25pt;
+			margin: 0px 0px 200px 0px;
+			
+			position:absolute;
+			left:600px;
+			right:600px;
+			top:400px;
+			
+			}
+			
+			input
+			{
+			line-height:20pt;
+			border:1px solid gray;
+			border-radius: 25px;
+			}
+			
+			.required::before
+			{
+			content:"*";
+			color:red;
+			}
+			
+			.required0::before
+			{
+			content:"*";
+			color:white;
+			}
+			
+			ul
+			{
+			list-style:none;
+			}
+		</style>
+	</head>
+	
+	<body>
+	
+	<div class = "form">
+	
+	<fieldset style = " width:300px ; height : 200px;">
+		<legend>
+			Login Page
+		</legend>
+		
+		<form action = "Login.html" method = "post"  >
+			
+			<input type= "text" placeholder="User Name" ></br>
+			<input type= "password" placeholder="Password"></br></br>
+			<input type= "submit" value="login"></br>
+		</form>
+	</fieldset>
+	
+	</div>
+	
+	
+	<div class = "form1">
+	
+	<fieldset style = " width:300px ; height : 400px;">
+		<legend>
+			Registre Page
+		</legend>
+		
+		<form action = "Login.html" method = "post" >
+			<ul>
+			<li class = "required"><input type= "text" placeholder=" Enter your Name"></li>
+		    <li class = "required0"> <input type= "text" placeholder=" Enter your MiddleName"></li>
+			<li class = "required"><input type= "text" placeholder=" Enter your LastName"></li>
+			<li class = "required"><input type= "text" placeholder=" Enter User Name" ></li>
+			<li class = "required"><input type= "password" placeholder=" Enter your Password"></li>
+			<li class = "required"><input type= "password" placeholder=" Enter your Password again"></li>
+			<li class = "required0"> <input type= "text" placeholder=" Enter your address" ></li>
+			<li class = "required"><input  type= "email" placeholder=" Enter your email"></li></br>
+			<input type= "submit" value="login"></br>
+			</ul>
+		</form>
+	</fieldset>
+	
+	</div>
+	</body>
+</html>
